@@ -1,3 +1,5 @@
+require "formula"
+
 class DW < Formula
   # name "dw"
   desc "DataWeave CLI"
