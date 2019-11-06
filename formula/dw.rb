@@ -5,6 +5,7 @@ class Dw < Formula
   sha256 "2b9cf05b09ce1dfb0ae755a320ee203cc419c3db11f5b5ec66e967d083eb515f"
 
   def install
-    prefix.install "native-cli-2.3.0-20191105-native-distro-osx.zip"
+    prefix.install "bin"
+    prefix.install "libs"
   end
 end
